@@ -111,7 +111,8 @@ func main() {
 	}
 	if len(args) < 2 || len(args) > 3 {
 		fmt.Printf("command is invalid\n")
-		fmt.Printf("correct syntax is: gosidebar [[add|rm] /path/to/folder, list]\n")
+		fmt.Printf("Usage:\n")
+		fmt.Printf("gosidebar [add|rm|list] /path/to/folder\n")
 		return
 	}
 	ops := args[1]

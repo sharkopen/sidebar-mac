@@ -105,7 +105,8 @@ import (
 func main() {
 	args := os.Args
 	if len(args) < 2 {
-		fmt.Printf("gosidebar [[add|rm] /path/to/folder, list]\n")
+		fmt.Printf("Usage:\n")
+		fmt.Printf("gosidebar [add|rm|list] /path/to/folder\n")
 		return
 	}
 	if len(args) < 2 || len(args) > 3 {

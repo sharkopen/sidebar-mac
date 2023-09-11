@@ -9,7 +9,7 @@ go build -ldflags="-s -w" -o gosidebar
 Usage:
 gosidebar [add|rm|list] /path/to/folder
 
-1. list the bar
+1. list bar
 
     ./gosidebar list
 

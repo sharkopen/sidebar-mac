@@ -27,4 +27,4 @@ License
 -------
 
 This is free software under the terms of the MIT license (check the
-[COPYING file](https://github.com/sharkopen/sidebar-mac/blob/master/CPOYING) included in this package).
+[LICENSE file](https://github.com/sharkopen/sidebar-mac/blob/master/LICENSE) included in this package).
